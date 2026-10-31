@@ -32,7 +32,6 @@ python3 -m http.server 8000
 ## Customise
 1. Update `CONFIG` in `assets/js/main.js` with your real email, phone and WhatsApp number.
 2. Replace the social links (`href="#"`) in the footer of `index.html`.
-3. Swap `assets/img/logo.svg` with your final logo if you have one.
 
 ## Deploy
 Static site — works on GitHub Pages, Netlify, Vercel, Cloudflare Pages or any shared hosting (upload the files to `public_html`).
