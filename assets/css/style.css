@@ -267,7 +267,7 @@ h3 { font-size: 1.2rem; font-weight: 700; }
 .work__item:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
 .work__item--big { grid-column: span 2; display: grid; grid-template-columns: 1.3fr 1fr; }
 .work__visual { min-height: 200px; display: grid; place-items: center; position: relative; overflow: hidden; }
-.work__visual span { font-size: 3.5rem; font-weight: 800; color: rgba(255, 255, 255, .9); letter-spacing: .05em; }
+.work__visual > span { font-size: 3.5rem; font-weight: 800; color: rgba(255, 255, 255, .9); letter-spacing: .05em; }
 .work__visual--erp { background: radial-gradient(circle at 30% 20%, #6366f1, #312e81 70%); }
 .work__visual--pos { background: radial-gradient(circle at 70% 30%, #06b6d4, #0e3a5a 70%); }
 .work__visual--oab { background: linear-gradient(135deg, #1e1b4b, #0c4a6e); padding: 2.2rem; min-height: 340px; }
@@ -276,22 +276,11 @@ h3 { font-size: 1.2rem; font-weight: 700; }
 .work__item--big h3 { font-size: 1.8rem; }
 .tags { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: .5rem; }
 .tags span { font-size: .78rem; padding: .3rem .7rem; border-radius: 8px; background: var(--surface-2); border: 1px solid var(--border); color: var(--muted); }
-.browser { width: 100%; max-width: 520px; border-radius: 12px; overflow: hidden; background: #0f1224; border: 1px solid rgba(255, 255, 255, .1); box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .7); transition: transform .5s; }
+.browser { display: block; width: 100%; max-width: 520px; border-radius: 12px; overflow: hidden; background: #0f1224; border: 1px solid rgba(255, 255, 255, .1); box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .7); transition: transform .5s; }
 .work__item--big:hover .browser { transform: scale(1.03); }
 .browser__bar { background: rgba(255, 255, 255, .04); border-color: rgba(255, 255, 255, .08); }
 .browser__bar span { color: #9aa0bf; }
-.browser__body { padding: 22px; }
-.oab-hero { padding: 18px; border-radius: 10px; background: linear-gradient(120deg, rgba(34, 211, 238, .15), rgba(99, 102, 241, .2)); }
-.oab-logo { font-weight: 800; font-size: 1.3rem; color: #fff; }
-.oab-logo span { color: var(--cyan); margin-left: 4px; }
-.oab-lines { display: grid; gap: 6px; margin: 12px 0; }
-.oab-lines b { height: 8px; border-radius: 4px; background: rgba(255, 255, 255, .25); }
-.oab-lines b.short { width: 55%; }
-.oab-btns { display: flex; gap: 8px; }
-.oab-btns i { width: 70px; height: 22px; border-radius: 6px; background: var(--grad); }
-.oab-btns i + i { background: rgba(255, 255, 255, .15); }
-.oab-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 12px; }
-.oab-cards i { height: 54px; border-radius: 8px; background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .08); }
+.browser__shot { width: 100%; height: auto; display: block; }
 
 /* Steps */
 .steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.2rem; counter-reset: s; position: relative; }
