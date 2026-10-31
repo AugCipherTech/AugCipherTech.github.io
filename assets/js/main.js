@@ -5,9 +5,9 @@
    ========================================================= */
 const CONFIG = {
   email: "hello@augciphertech.com",
-  phone: "+8801XXXXXXXXX",          // e.g. +8801712345678
-  phoneDisplay: "+880 1XXX-XXXXXX",
-  whatsapp: "8801XXXXXXXXX",        // digits only, no "+"
+  phone: "+8801792021499",
+  phoneDisplay: "+880 1792-021499",
+  whatsapp: "8801792021499",        // digits only, no "+"
 };
 
 (() => {
