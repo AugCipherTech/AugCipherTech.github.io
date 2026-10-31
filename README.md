@@ -39,3 +39,8 @@ Static site — works on GitHub Pages, Netlify, Vercel, Cloudflare Pages or any 
 
 ---
 © AugCipher Tech
+
+## Image credits
+ERP and POS card photos are from [Unsplash](https://unsplash.com) (free to use under the Unsplash License):
+- `work-erp.webp` — https://unsplash.com/photos/1460925895917-afdab827c52f
+- `work-pos.webp` — https://unsplash.com/photos/1556740758-90de374c12ad
