@@ -4,7 +4,7 @@
    👉 Update your real contact details here (used across the site)
    ========================================================= */
 const CONFIG = {
-  email: "hello@augciphertech.com",
+  email: "augciphertech@gmail.com",
   phone: "+8801792021499",
   phoneDisplay: "+880 1792-021499",
   whatsapp: "8801792021499",        // digits only, no "+"
