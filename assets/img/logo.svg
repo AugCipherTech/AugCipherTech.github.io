@@ -1,13 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="0.5" stop-color="#6366f1"/>
-      <stop offset="1" stop-color="#a855f7"/>
-    </linearGradient>
-  </defs>
-  <path d="M32 3 57 17.5v29L32 61 7 46.5v-29L32 3Z" stroke="url(#g)" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M20 44 32 18l12 26" stroke="url(#g)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M25 36h14" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="32" cy="18" r="3.5" fill="#22d3ee"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="78 24 584 430"><defs>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00C7E8"/><stop offset=".48" stop-color="#087DE0"/><stop offset="1" stop-color="#073B78"/></linearGradient>
+ <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#087DE0"/><stop offset="1" stop-color="#073B78"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00C7E8"/><stop offset="1" stop-color="#087DE0"/></linearGradient>
+ </defs><g transform="translate(15 10) scale(.96)"><g stroke-linecap="round" stroke-linejoin="round">
+ <path d="M72 455 L315 42 Q327 22 340 42 L458 244 L400 278 L329 156 L173 455 Z" fill="url(#blue)"/>
+ <path d="M213 455 L300 455 L365 344 L449 295 L425 251 L328 307 Z" fill="url(#navy)"/>
+ <path d="M392 455 L498 455 L454 377 L409 403 Z" fill="url(#blue)"/>
+ <path d="M382 222 A145 145 0 1 1 435 373" fill="none" stroke="url(#cyan)" stroke-width="23"/>
+ <path d="M414 264 A94 94 0 1 0 462 331" fill="none" stroke="url(#cyan)" stroke-width="18"/>
+ <path d="M439 222 L510 125 L552 125" fill="none" stroke="url(#cyan)" stroke-width="17"/>
+ <path d="M465 264 L535 264 L575 218 L610 218" fill="none" stroke="url(#cyan)" stroke-width="17"/>
+ <path d="M470 307 L620 307" fill="none" stroke="url(#cyan)" stroke-width="17"/>
+ <circle cx="562" cy="125" r="22" fill="none" stroke="#00C7E8" stroke-width="15"/>
+ <circle cx="621" cy="218" r="22" fill="none" stroke="#00C7E8" stroke-width="15"/>
+ <circle cx="637" cy="307" r="22" fill="none" stroke="#00C7E8" stroke-width="15"/>
+ <circle cx="437" cy="222" r="18" fill="#00C7E8"/>
+ <circle cx="388" cy="111" r="20" fill="#00C7E8"/>
+ <circle cx="298" cy="257" r="18" fill="#087DE0"/>
+ <circle cx="445" cy="390" r="18" fill="#087DE0"/>
+</g></g></svg>

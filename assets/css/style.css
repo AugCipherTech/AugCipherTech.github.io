@@ -88,7 +88,12 @@ h3 { font-size: 1.2rem; font-weight: 700; }
 .nav.is-scrolled { background: color-mix(in srgb, var(--bg) 80%, transparent); backdrop-filter: blur(14px); border-color: var(--border); }
 .nav__inner { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .brand { display: flex; align-items: center; gap: .6rem; font-weight: 700; font-size: 1.2rem; color: var(--heading); }
-.brand b { font-weight: 800; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; margin-left: 2px; }
+.brand img { height: 40px; width: auto; }
+.brand__text { display: flex; flex-direction: column; line-height: 1; }
+.brand__text strong { font-family: Inter, "Plus Jakarta Sans", Arial, sans-serif; font-size: 1.12rem; font-weight: 800; letter-spacing: -.01em; color: #073B78; }
+.brand__text small { margin-top: 3px; font-size: .68rem; font-weight: 700; letter-spacing: .42em; color: #087DE0; }
+:root:not([data-theme="light"]) .brand__text strong { color: #fff; }
+:root:not([data-theme="light"]) .brand__text small { color: #00C7E8; }
 .nav__links { display: flex; align-items: center; gap: 1.8rem; }
 .nav__links a:not(.btn) { color: var(--muted); font-weight: 500; font-size: .95rem; position: relative; transition: color .2s; }
 .nav__links a:not(.btn):hover, .nav__links a.is-active { color: var(--heading); }
